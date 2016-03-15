@@ -1,0 +1,66 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+.content {
+  padding: 15px;
+  margin: 0 auto;
+}
+#profile-pic {
+  text-align: center;
+}
+.market-select {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+.content h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #3f729b;
+  font-family: cursive;
+}
+.content h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #3f729b;
+  font-family: Verdana;
+}
+
+.content p {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 20px;
+}
+.myBtn button {
+  max-width: 300px;
+  margin : 0 auto;
+}
+.loadmore {
+  margin-top: 60px;
+}
+.content form {
+  text-align: center;
+}
+.content form input {
+  width: 300px;
+  height: 40px;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+.my_colum {
+  padding: 2px 2px;
+}
+@media(min-width:768px){
+  .my_colum {
+    padding: 20px 20px;
+  }
+}

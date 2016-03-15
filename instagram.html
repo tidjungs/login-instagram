@@ -1,0 +1,62 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>My Instagram</title>
+  <meta name="description" content="My Instagram">
+  <meta name="viewport" content="width=device-width">
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="http://www.parsecdn.com/js/parse-1.2.13.min.js"></script>
+  <script src="underscore.js"></script>
+  <script src="bootstrap.js"></script>
+  <script src="bootstrap-dialog.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="bootstrap-dialog.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="instagram.css">
+  <script src="instagram.js"></script>
+</head>
+<body>
+
+    <div id="main">
+      <div class="content"></div>
+    </div>
+
+    <script type="text/template" id="login-template">
+      <h1>Instagram</h1><br><br>
+      <div class="myBtn">
+        <button class="login-ig btn btn-lg btn-primary btn-block">Login via Instagram</button>
+      </div>
+    </script>
+
+    <script type="text/template" id="info-template">
+      <h2>Please give us infomation</h2><br><br>
+      <form>
+        <input id="line-id" type="text" placeholder="LINE ID"><br><br>
+        <input id="email" type="text" placeholder="Email"><br><br>
+      </form>
+      <div class="market-select">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Select Market
+          <span class="caret" style="margin: 0 auto"></span></button>
+          <ul class="dropdown-menu market-list" style="margin: 0 auto">
+          </ul>
+        </div>
+      </div>
+      <div class="myBtn">
+        <button class="submit-line btn btn-lg btn-primary btn-block">Submit</button>
+      </div>
+    </script>
+
+    <script type="text/template" id="profile-template">
+      <h1>Profile</h1><br>
+      <div id="profile-pic"></div><br>
+      <p id="username"><p><br>
+      <div class="myBtn">
+        <button class="logout-ig btn btn-lg btn-primary btn-block">Logout</button><br><br>
+      </div>
+      <div class="my-table"></div>
+      <button class="loadmore btn btn-lg btn-primary btn-block">Loadmore</button>
+    </script>
+
+
+</body>
+</html>
