@@ -7,8 +7,8 @@ var allCount = 0;
 
 Parse.$ = jQuery;
 
-Parse.initialize("inlWM1XaM7Sq4S0cWiRaK8Wo5otR9N7IEosB8OTo",
-                 "S3B0N0lwM3YEmRtGoejHc2x4Z3VcUfnO87g1wV1n");
+Parse.initialize("Parse id",
+                 "Parse id");
 
 $(function() {
   var MainView = Parse.View.extend({
@@ -40,7 +40,7 @@ $(function() {
     },
 
     login_ig: function(){
-      var clientId = 'e7d4c9defe4b4b19ab1185243bd83086',
+      var clientId = 'client id',
       redirectUri = 'http://localhost:8888/instagram.html',
       myUrl = 'https://instagram.com/oauth/authorize/?client_id=' + clientId + '&redirect_uri=' + redirectUri + '&response_type=token' + (this.scope || '');
       window.location.href = myUrl;
